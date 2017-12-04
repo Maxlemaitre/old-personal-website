@@ -94,10 +94,22 @@ body {
 
 .slider {
   height: 100vh;
-  font-size: 52px;
-  display: flex;
-  align-items: center;
-  letter-spacing: -1.5px;
+  line-height: 2.2;
+  display: table;
+}
+
+.greeting {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.position {
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+.position a {
+  color: rgba(39, 48, 59, 0.8) !important;
 }
 
 .about {
@@ -195,6 +207,7 @@ body {
   text-align: center;
   padding: 28px 0px;
   font-size: 16px;
-  letter-spacing: 1px;
+  letter-spacing: 1.2px;
+  line-height: 1.8;
 }
 
