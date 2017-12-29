@@ -1,7 +1,7 @@
 body {
   color: rgba(39, 48, 59, 0.8);
   font-family: Avenir;
-  font-size: 22px;
+  font-size: 20px;
   margin: 0px;
   background-color: #FAFAFA;
   line-height: 1.8;
@@ -82,16 +82,6 @@ body {
   right: 12%;
 }
 
-.menu {
-  display: flex;
-  justify-content: space-around;
-  justify-content: flex-end;
-}
-
-.menu-item {
-  padding: 30px 40px;
-}
-
 .slider {
   height: 100vh;
   line-height: 2.2;
@@ -103,8 +93,12 @@ body {
   vertical-align: middle;
 }
 
+.greeting h1 {
+  font-size: 60px;
+}
+
 .position {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: lighter;
 }
 
@@ -113,14 +107,18 @@ body {
 }
 
 .about {
-  text-align: center;
-  height: 60vh;
-  max-width: 800px;
+  height: 80vh;
 }
 
-.skills {
-  margin-bottom: 200px;
-  height: 100vh;
+.profile-pic-section {
+  text-align: center;
+}
+
+.about-txt{
+  height: 240px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 24px;
 }
 
 .skill {
@@ -128,15 +126,24 @@ body {
   padding: 0px 40px;
 }
 
+.skill a {
+  color: rgba(39, 48, 59, 0.8);
+}
+
+.contact {
+  height: 100vh;
+}
+
 .card {
   height: 500px;
   width: 360px;
-  font-size: 20px;
+  font-size: 18px;
   margin: auto;
   box-shadow: 0 0 6px 0 rgba(30,45,62,.09);
   background-color: white;
   border-radius: 12px;
   position: relative;
+  top: 14%;
   }
 
   .card-content {
@@ -147,11 +154,11 @@ body {
 
   .cta-talk {
   background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
-  border-radius: 40px;
+  border-radius: 12px;
   color: white;
   width: 180px;
   height: 50px;
-  line-height: 1.8;
+  line-height: 2;
   margin: 15% auto;
   }
 
@@ -163,12 +170,18 @@ body {
     width: 360px;
   }
 
-.profile-pic {
+
+.small-profile-pic {
   max-height: 100px;
   border-radius: 50%;
   position: absolute;
   top: 75px;
   left: 36%;
+}
+
+.big-profile-pic {
+  max-height: 240px;
+  border-radius: 50%;
 }
 
 .dot-online {
@@ -184,14 +197,6 @@ body {
   position: absolute;
   margin-left: 40px;
   margin-top: 50px;
-}
-
-.forward {
-  z-index: 1;
-}
-
-.backward {
-  z-index: -1;
 }
 
 .card > p {
@@ -210,4 +215,41 @@ body {
   letter-spacing: 1.2px;
   line-height: 1.8;
 }
+
+.forward {
+  z-index: 1;
+}
+
+.backward {
+  z-index: -1;
+}
+
+
+@media (min-width: @screen-md-min) {
+  .skills {
+  height: 100vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .greeting h1 {
+  font-size: 38px;
+  }
+  .position {
+  font-size: 22px;
+  }
+  .about-txt {
+    font-size: 22px;
+  }
+  .profile-pic-section {
+    padding-bottom: 5vh;
+  }
+  .confetti-16 {
+  top: 300%;
+  left: 12%;
+  }
+}
+
+
+
 
