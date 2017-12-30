@@ -107,7 +107,8 @@ body {
 }
 
 .about {
-  height: 80vh;
+  height: 100%;
+  margin: 25vh 0;
 }
 
 .profile-pic-section {
@@ -131,7 +132,8 @@ body {
 }
 
 .contact {
-  height: 100vh;
+  height: 100%;
+  margin: 5vh 0;
 }
 
 .card {
@@ -143,7 +145,6 @@ body {
   background-color: white;
   border-radius: 12px;
   position: relative;
-  top: 14%;
   }
 
   .card-content {
@@ -224,33 +225,56 @@ body {
   z-index: -1;
 }
 
-@media only screen and (min-device-width: @screen-md-min) {
+@media only screen
+  and (orientation:portrait)
+  and (min-device-width: @screen-md-min) {
   .skills {
   height: 100vh;
   }
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen
+  and (orientation:landscape) {
+  .contact {
+  margin-bottom: 15vh;
+  }
+}
+
+@media only screen
+  and (orientation:portrait)
+  and (max-device-width: 768px) {
+  .about {
+    margin: 5vh 0;
+  }
   .greeting h1 {
   font-size: 80px;
   }
   .greeting {
     height: 105vh;
   }
-  .about {
-    height: 35vh;
-  }
-  .contact {
-    height: 45vh;
-  }
   .card {
     top: 0%;
   }
   .position {
-  font-size: 42px;
+  font-size: 40px;
   }
   .about-txt {
-    font-size: 22px;
+    font-size: 30px;
+  }
+  .skill p {
+    font-size: 30px;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .card-content {
+    font-size: 30px;
+  }
+  .card {
+    height: 550px;
+  }
+  .cta-talk {
+    height: 60px;
   }
   .profile-pic-section {
     padding-bottom: 5vh;
