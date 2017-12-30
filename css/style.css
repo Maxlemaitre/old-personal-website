@@ -83,9 +83,9 @@ body {
 }
 
 .slider {
-  height: 100vh;
   line-height: 2.2;
   display: table;
+  height: 100vh;
 }
 
 .greeting {
@@ -225,18 +225,30 @@ body {
 }
 
 
-@media (min-width: @screen-md-min) {
+@media only screen and (min-device-width: @screen-md-min) {
   .skills {
   height: 100vh;
   }
 }
 
-@media (max-width: 400px) {
+@media only screen and (max-device-width: 768px) {
   .greeting h1 {
-  font-size: 38px;
+  font-size: 80px;
+  }
+  .greeting {
+    height: 105vh;
+  }
+  .about {
+    height: 35vh;
+  }
+  .contact {
+    height: 45vh;
+  }
+  .card {
+    top: 0%;
   }
   .position {
-  font-size: 22px;
+  font-size: 42px;
   }
   .about-txt {
     font-size: 22px;
@@ -244,9 +256,17 @@ body {
   .profile-pic-section {
     padding-bottom: 5vh;
   }
+  .confetti-17 {
+  top: 60%;
+  left: 20%;
+  }
   .confetti-16 {
-  top: 300%;
-  left: 12%;
+  top: 164%;
+  left: 79%;
+  }
+  .confetti-11 {
+  top: 199%;
+  left: 37%;
   }
 }
 
