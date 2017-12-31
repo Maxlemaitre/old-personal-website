@@ -259,37 +259,106 @@ body {
   font-size: 40px;
   }
   .about-txt {
-    font-size: 30px;
-  }
-  .skill p {
-    font-size: 30px;
-  }
-  .title {
     font-size: 40px;
   }
+  .skill p {
+    font-size: 40px;
+  }
+  .title {
+    font-size: 50px;
+  }
   .card-content {
-    font-size: 30px;
+    font-size: 40px;
   }
   .card {
-    height: 550px;
+    height: 650px;
+    width: 450px;
+  }
+  .wave {
+    width: 450px;
   }
   .cta-talk {
-    height: 60px;
+    height: 80px;
+    width: 240px;
+    margin: 5% auto;
+  }
+  .dot-online {
+    top: -10px;
   }
   .profile-pic-section {
     padding-bottom: 5vh;
   }
-  .confetti-17 {
-  top: 60%;
-  left: 20%;
+  .small-profile-pic {
+    left: 39%;
+    top: 105px;
   }
-  .confetti-16 {
-  top: 164%;
-  left: 79%;
+  .confetti-1 {
+  top: 8%;
+  left: 10%;
+  }
+  .confetti-2 {
+    top: 16%;
+    right: 17%;
+  }
+  .confetti-3 {
+    top: 32%;
+    left: 47%;
+  }
+  .confetti-4 {
+    top: 148%;
+    right: 67%;
+  }
+  .confetti-5 {
+    top: 118%;
+    left: 87%;
+  }
+  .confetti-6 {
+    top: 92%;
+    right: 87%;
+  }
+  .confetti-7 {
+    top: 86%;
+    right: 62%;
+  }
+  .confetti-8 {
+    top: 106%;
+    right: 22%;
+  }
+  .confetti-9 {
+    top: 207%;
+    left: 67%;
+  }
+  .confetti-10 {
+    top: 288%;
+    right: 87%;
   }
   .confetti-11 {
-  top: 199%;
-  left: 37%;
+    top: 199%;
+    left: 37%;
+  }
+  .confetti-12 {
+    top: 206%;
+    left: -1%;
+  }
+  .confetti-13 {
+    top: 172%;
+    right: 20%;
+  }
+  .confetti-14 {
+    top: 276%;
+    right: 42%;
+  }
+  .confetti-15 {
+    top: 211%;
+    left: 34%;
+  }
+  .confetti-16 {
+    top: 234%;
+    left: 79%;
+  }
+  .confetti-17 {
+    top: 60%;
+    left: 20%;
   }
 }
 
