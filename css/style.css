@@ -116,118 +116,128 @@ body {
 }
 
 .about-txt{
-  height: 240px;
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 24px;
+height: 240px;
+display: table-cell;
+vertical-align: middle;
+font-size: 24px;
 }
 
 .skill {
-  margin: 8vh 0;
-  padding: 0px 40px;
+margin: 8vh 0;
+padding: 0px 40px;
 }
 
 .skill a {
-  color: rgba(39, 48, 59, 0.8);
+color: rgba(39, 48, 59, 0.8);
 }
 
 .contact {
-  height: 100%;
-  margin: 5vh 0;
+height: 100%;
+margin: 5vh 0;
 }
 
 .card {
-  height: 500px;
-  width: 360px;
-  font-size: 18px;
-  margin: auto;
-  box-shadow: 0 0 6px 0 rgba(30,45,62,.09);
-  background-color: white;
-  border-radius: 12px;
-  position: relative;
+height: 500px;
+width: 360px;
+font-size: 18px;
+margin: auto;
+box-shadow: 0 0 6px 0 rgba(30,45,62,.09);
+background-color: white;
+border-radius: 12px;
+position: relative;
 }
 
-  .card-content {
-    padding: 25px;
-    text-align: center;
-    font-size: 26px;
-  }
+.card-content {
+  padding: 25px;
+  text-align: center;
+  font-size: 26px;
+}
 
-  .cta-talk {
-    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
-    border-radius: 12px;
-    color: white;
-    width: 180px;
-    height: 50px;
-    line-height: 2;
-    margin: 15% auto;
-    transition: 0.5s ease;
-  }
+.cta-talk {
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  border-radius: 12px;
+  color: white;
+  width: 180px;
+  height: 50px;
+  line-height: 2;
+  margin: 15% auto;
+  transition: 0.5s ease;
+}
 
-   .cta-talk:hover {
-    box-shadow: 0 2px 12px rgba(39,21,102,.3);
-  }
+ .cta-talk:hover {
+  box-shadow: 0 2px 12px rgba(39,21,102,.3);
+}
 
-  .decoration-none:hover {
-    text-decoration: none;
-  }
+a, a:hover, a:active, a:visited, a:focus {
+  text-decoration:none;
+}
 
-  .wave {
-    width: 360px;
-  }
+.wave {
+  width: 360px;
+}
 
 
 .small-profile-pic {
-  max-height: 100px;
-  border-radius: 50%;
-  position: absolute;
-  top: 75px;
-  left: 36%;
+max-height: 100px;
+border-radius: 50%;
+position: absolute;
+top: 75px;
+left: 36%;
 }
 
 .big-profile-pic {
-  max-height: 240px;
-  border-radius: 50%;
+max-height: 240px;
+border-radius: 50%;
 }
 
 .dot-online {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background-color: #00d664;
-  position: relative;
-  left: 54.5%;
+width: 14px;
+height: 14px;
+border-radius: 50%;
+background-color: #00d664;
+position: relative;
+left: 54.5%;
 }
 
 .oval-green {
-  position: absolute;
-  margin-left: 40px;
-  margin-top: 50px;
+position: absolute;
+margin-left: 40px;
+margin-top: 50px;
 }
 
 .card > p {
-  font-size: 12px;
-  text-align: center;
-  padding-top: 10px;
+font-size: 12px;
+text-align: center;
+padding-top: 10px;
 }
 
 .footer {
   height: 80px;
-  background: #303843;
+  background: #1e2730;
   color: white;
   text-align: center;
-  padding: 28px 0px;
-  font-size: 16px;
+  padding: 15px 0px;
+  font-size: 14px;
   letter-spacing: 1.2px;
-  line-height: 1.8;
+  line-height: 3.8;
+  color: #465464;
+}
+
+.footer img {
+  height: 20px;
+  padding: 0px 15px;
+}
+
+.footer p {
+  margin: 0px;
 }
 
 .forward {
-  z-index: 1;
+z-index: 1;
 }
 
 .backward {
-  z-index: -1;
+z-index: -1;
 }
 
 @media only screen
@@ -288,7 +298,7 @@ body {
     margin: 5% auto;
   }
   .dot-online {
-    top: -10px;
+    top: -12px;
   }
   .profile-pic-section {
     padding-bottom: 5vh;
