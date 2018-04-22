@@ -148,7 +148,6 @@ body {
   font-weight: lighter;
 }
 
-
 .skill {
   padding: 60px 50px;
   margin: 50px;
@@ -260,24 +259,37 @@ z-index: 1;
 z-index: -1;
 }
 
-@media only screen
-  and (orientation:portrait)
-  and (min-device-width: @screen-md-min) {
-  .skills {
-  height: 100vh;
+@media (max-width: 576px) {
+  .greeting h1 {
+    font-size: 50px;
+  }
+  .skill {
+    height: 650px;
+  }
+  .about-txt {
+    text-align: center;
+  }
+  .big-profile-pic {
+    margin-bottom: 5vh;
   }
 }
-
-@media only screen
-  and (orientation:landscape) {
+@media (max-width: 1200px) {
+  .digital-mkg {
+    margin: 0px;
+  }
+  .developer {
+    margin: 0px;
+  }
+  .skill {
+    margin: 5vh auto !important;
+  }
   .contact {
-  margin-bottom: 15vh;
+    margin: 5vh auto !important;
   }
 }
-
-@media only screen
+@media screen
   and (orientation:portrait)
-  and (max-device-width: 768px) {
+  and (max-device-width: 992px) {
   .cta-talk {
     width: 350px;
     height: 80px;
@@ -289,32 +301,33 @@ z-index: -1;
   .skill {
     max-width: 90%;
     height: 50vh;
-    margin: 5vh 0px !important;
-
+    margin: 5vh auto !important;
   }
+
   .developer {
-    margin: 5vh 0px !important;
+    margin: 5vh auto !important;
   }
   .digital-mkg {
-    margin: 5vh 0px !important;
+    margin: 5vh auto !important;
   }
   .contact {
     max-width: 90%;
     font-size: 40px;
-    margin: 5vh 0px !important;
+    margin: 5vh auto !important;
   }
 
   .greeting h1 {
-  font-size: 88px;
+  font-size: 80px;
   }
   .greeting {
     height: 105vh;
   }
   .position {
-  font-size: 40px;
+  font-size: 35px;
   }
   .about-txt {
     font-size: 40px;
+    text-align: center;
   }
   .skill p {
     font-size: 40px;
@@ -329,6 +342,8 @@ z-index: -1;
     left: 39%;
     top: 105px;
   }
+
+
   .confetti-1 {
     top: 8%;
     left: 10%;
